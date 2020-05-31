@@ -1,5 +1,5 @@
 # FreeGithub
-自动获取github相关网站的ip地址，解决github链接不畅通的问题
+自动获取github相关网站的ip地址，解决github链接不畅通的问题，该项目的README会自动更新，大家可以直接复制使用
 
 ## hosts列表
 ```base

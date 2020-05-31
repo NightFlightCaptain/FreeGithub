@@ -35,7 +35,7 @@ func Hosts() {
 		ip := getIp(rawUrl)
 		content += rawUrl + " " + ip + "\n"
 	}
-	content += "# Github Host End\n"
+	content += "# Github Host End"
 
 	writeToFile(content)
 }
