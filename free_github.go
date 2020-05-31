@@ -113,9 +113,10 @@ func writeToFile(content string) {
 }
 
 func main() {
-	timeTicker := time.NewTicker(time.Hour * 2)
-	for {
-		Hosts()
-		<-timeTicker.C
-	}
+	//timeTicker := time.NewTicker(time.Hour * 2)
+	//for {
+	//	Hosts()
+	//	<-timeTicker.C
+	//}
+	Hosts()
 }
