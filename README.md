@@ -1,5 +1,5 @@
 # FreeGithub
-自动获取github相关网站的ip地址，解决github链接不畅通的问题
+自动获取github相关网站的ip地址，解决github链接不畅通的问题，该项目的README会自动更新，大家可以直接复制使用
 
 ## hosts列表
 ```base
@@ -8,7 +8,7 @@ github.githubassets.com 185.199.108.154
 camo.githubusercontent.com 199.232.68.133
 github.map.fastly.net 199.232.68.133
 github.global.ssl.fastly.net 199.232.69.194
-github.com 140.82.114.3
+github.com 140.82.113.3
 api.github.com 140.82.113.6
 raw.githubusercontent.com 199.232.68.133
 favicons.githubusercontent.com 199.232.28.133
@@ -19,10 +19,9 @@ avatars2.githubusercontent.com 199.232.68.133
 avatars1.githubusercontent.com 199.232.68.133
 avatars0.githubusercontent.com 199.232.68.133
 # Github Host End
-
 ```
 
-更新时间：2020-05-31 13.49.11
+更新时间：2020-05-31 16:06:02
 
 ## 修改本机的hosts文件
 ### 存放位置
