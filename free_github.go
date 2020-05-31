@@ -100,7 +100,7 @@ func writeToFile(content string) {
 		log.Println("open README_template.md err, ", err)
 	}
 	readMeContent := strings.Replace(string(bytes), "{{hosts}}", content, -1)
-	time := time.Now().Format("2006-01-02 15.04.05")
+	time := time.Now().Local().Format("2006-01-02 15:04:05")
 	readMeContent = strings.ReplaceAll(readMeContent, "{{time}}", time)
 
 	readMeFile, err := os.OpenFile("README.md", os.O_WRONLY|os.O_TRUNC, 0600)
@@ -113,9 +113,10 @@ func writeToFile(content string) {
 }
 
 func main() {
-	timeTicker := time.NewTicker(time.Hour * 2)
-	for {
-		Hosts()
-		<-timeTicker.C
-	}
+	//timeTicker := time.NewTicker(time.Hour * 2)
+	//for {
+	//	Hosts()
+	//	<-timeTicker.C
+	//}
+	Hosts()
 }
