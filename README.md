@@ -1,0 +1,2 @@
+# FreeGithub
+自动获取github相关网站的ip地址，解决github链接不畅通的问题
