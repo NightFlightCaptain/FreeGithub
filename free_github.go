@@ -100,6 +100,8 @@ func writeToFile(content string) {
 		log.Println("open README_template.md err, ", err)
 	}
 	readMeContent := strings.Replace(string(bytes), "{{hosts}}", content, -1)
+	// 当放在github workflows中执行的时候使用的是其他地区的服务器，Local并不代表本地时间
+	time.Local = time.FixedZone("CST", 8*60*60)
 	time := time.Now().Local().Format("2006-01-02 15:04:05")
 	readMeContent = strings.ReplaceAll(readMeContent, "{{time}}", time)
 

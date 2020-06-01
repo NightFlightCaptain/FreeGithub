@@ -2,7 +2,7 @@ name: FreeGithub
 
 on:
   schedule:
-    - cron: '0 10,16,23 * * *'
+    - cron: '0 2,10,15 * * *'
 
 jobs:
 
