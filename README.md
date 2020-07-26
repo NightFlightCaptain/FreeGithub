@@ -14,14 +14,14 @@ raw.githubusercontent.com 199.232.68.133
 favicons.githubusercontent.com 199.232.68.133
 avatars5.githubusercontent.com 199.232.68.133
 avatars4.githubusercontent.com 199.232.68.133
-avatars3.githubusercontent.com 199.232.68.133
-avatars2.githubusercontent.com 52.188.204.137
+avatars3.githubusercontent.com 52.138.102.60
+avatars2.githubusercontent.com 52.138.102.60
 avatars1.githubusercontent.com 199.232.68.133
 avatars0.githubusercontent.com 199.232.68.133
 # Github Host End
 ```
 
-更新时间：2020-07-26 18:04:34
+更新时间：2020-07-26 23:04:46
 
 ## 修改本机的hosts文件
 ### 存放位置
