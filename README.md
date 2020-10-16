@@ -1,5 +1,4 @@
 # FreeGithub
-## 每天获取数据有刷github的嫌疑，我把频率从一天三次调成了一周一次，大家有需求可以自己该执行频率
 自动获取github相关网站的ip地址，解决github链接不畅通的问题，该项目的README会自动更新，大家可以直接复制使用
 
 ## hosts列表
@@ -9,20 +8,20 @@ github.githubassets.com 185.199.108.154
 camo.githubusercontent.com 199.232.68.133
 github.map.fastly.net 199.232.68.133
 github.global.ssl.fastly.net 199.232.69.194
-github.com 140.82.113.3
-api.github.com 140.82.113.5
+github.com 140.82.112.4
+api.github.com 140.82.112.6
 raw.githubusercontent.com 199.232.68.133
 favicons.githubusercontent.com 199.232.68.133
 avatars5.githubusercontent.com 199.232.68.133
 avatars4.githubusercontent.com 199.232.68.133
-avatars3.githubusercontent.com 40.117.195.170
+avatars3.githubusercontent.com 199.232.68.133
 avatars2.githubusercontent.com 199.232.68.133
 avatars1.githubusercontent.com 199.232.68.133
 avatars0.githubusercontent.com 199.232.68.133
 # Github Host End
 ```
 
-更新时间：2020-10-14 18:07:43
+更新时间：2020-10-16 08:12:14
 
 ## 修改本机的hosts文件
 ### 存放位置
